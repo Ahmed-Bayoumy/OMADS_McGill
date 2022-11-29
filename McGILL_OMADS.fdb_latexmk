@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1669735369 "/Users/ahmedb/Data/Research/presentations/OMADS_McGill/McGILL_OMADS.tex" "McGILL_OMADS.pdf" "McGILL_OMADS" 1669735375
-  "/Users/ahmedb/Data/Research/presentations/OMADS_McGill/McGILL_OMADS.tex" 1669735369 42291 917045b3ffaf1824d828be0ff3fb0c22 ""
+["pdflatex"] 1669735588 "/Users/ahmedb/Data/Research/presentations/OMADS_McGill/McGILL_OMADS.tex" "McGILL_OMADS.pdf" "McGILL_OMADS" 1669735593
+  "/Users/ahmedb/Data/Research/presentations/OMADS_McGill/McGILL_OMADS.tex" 1669735582 42737 dbea54ca329416afb1c50ba0c88601d5 ""
   "/Users/ahmedb/Library/texlive/2021/texmf-var/fonts/pk/ljfour/public/bbm/bbm8.600pk" 1669711040 5580 3bdb5cc8c2908df49ceab7ae5f605c7b ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -335,10 +335,10 @@
   "Figures/maniac.jpeg" 1669619833 121683 c26d4eef7f36cc485e9098510207ceb1 ""
   "Figures/noisy.jpeg" 1669612079 53630 2980397b6b96793fcb77fc55a6a75534 ""
   "Figures/smooth.pdf" 1669715617 57551 c53317d6df638e96bf79a7ec658f47a8 ""
-  "McGILL_OMADS.aux" 1669735375 7130 d7e9c6d77a12e8626bab563b9940ab24 "pdflatex"
-  "McGILL_OMADS.nav" 1669735375 3746 17188907ec9eb9523b82ecb335516d10 "pdflatex"
-  "McGILL_OMADS.out" 1669735375 463 6f4b8d1735fab7e1946b298bcd8c892b "pdflatex"
-  "McGILL_OMADS.tex" 1669735369 42291 917045b3ffaf1824d828be0ff3fb0c22 ""
+  "McGILL_OMADS.aux" 1669735593 7363 8632634aeea88313160db775b8d5eb0b "pdflatex"
+  "McGILL_OMADS.nav" 1669735593 3838 4f080eddc5ac18b335d7b2583e664512 "pdflatex"
+  "McGILL_OMADS.out" 1669735593 463 6f4b8d1735fab7e1946b298bcd8c892b "pdflatex"
+  "McGILL_OMADS.tex" 1669735582 42737 dbea54ca329416afb1c50ba0c88601d5 ""
   (generated)
   "McGILL_OMADS.aux"
   "McGILL_OMADS.log"
