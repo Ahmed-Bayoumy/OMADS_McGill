@@ -3,3 +3,4 @@
 \beamer@sectionintoc {3}{DS methods}{23}{0}{3}
 \beamer@sectionintoc {4}{MADS}{39}{0}{4}
 \beamer@sectionintoc {5}{implementations}{44}{0}{5}
+\beamer@sectionintoc {6}{Example}{47}{0}{6}

@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1669735588 "/Users/ahmedb/Data/Research/presentations/OMADS_McGill/McGILL_OMADS.tex" "McGILL_OMADS.pdf" "McGILL_OMADS" 1669735593
-  "/Users/ahmedb/Data/Research/presentations/OMADS_McGill/McGILL_OMADS.tex" 1669735582 42737 dbea54ca329416afb1c50ba0c88601d5 ""
+["pdflatex"] 1669769807 "/Users/ahmedb/Data/Research/presentations/OMADS_McGill/McGILL_OMADS.tex" "McGILL_OMADS.pdf" "McGILL_OMADS" 1669769814
+  "/Users/ahmedb/Data/Research/presentations/OMADS_McGill/McGILL_OMADS.tex" 1669769807 45300 89b39618aefd925b70436dfbab453bcd ""
   "/Users/ahmedb/Library/texlive/2021/texmf-var/fonts/pk/ljfour/public/bbm/bbm8.600pk" 1669711040 5580 3bdb5cc8c2908df49ceab7ae5f605c7b ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -334,11 +334,13 @@
   "Figures/flow-chart.png" 1669731490 1211598 18f8201d332543a16fd2422b9fca72ea ""
   "Figures/maniac.jpeg" 1669619833 121683 c26d4eef7f36cc485e9098510207ceb1 ""
   "Figures/noisy.jpeg" 1669612079 53630 2980397b6b96793fcb77fc55a6a75534 ""
+  "Figures/results.png" 1669769465 40927 2f05c9b9b3049688109419e9fd7b41ce ""
+  "Figures/results2.png" 1669769529 200775 43341e919ce5fa5ce0bed35789cf225f ""
   "Figures/smooth.pdf" 1669715617 57551 c53317d6df638e96bf79a7ec658f47a8 ""
-  "McGILL_OMADS.aux" 1669735593 7363 8632634aeea88313160db775b8d5eb0b "pdflatex"
-  "McGILL_OMADS.nav" 1669735593 3838 4f080eddc5ac18b335d7b2583e664512 "pdflatex"
-  "McGILL_OMADS.out" 1669735593 463 6f4b8d1735fab7e1946b298bcd8c892b "pdflatex"
-  "McGILL_OMADS.tex" 1669735582 42737 dbea54ca329416afb1c50ba0c88601d5 ""
+  "McGILL_OMADS.aux" 1669769814 8014 34d2ac7ddd1a1807c4f687e7328f16d1 "pdflatex"
+  "McGILL_OMADS.nav" 1669769814 4265 764e0fb5587013e8b8bb37aa407ee92f "pdflatex"
+  "McGILL_OMADS.out" 1669769814 541 9e02636cc796cfc1270fbe57c1469005 "pdflatex"
+  "McGILL_OMADS.tex" 1669769807 45300 89b39618aefd925b70436dfbab453bcd ""
   (generated)
   "McGILL_OMADS.aux"
   "McGILL_OMADS.log"
