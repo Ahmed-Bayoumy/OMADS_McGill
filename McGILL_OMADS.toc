@@ -3,5 +3,5 @@
 \beamer@sectionintoc {3}{DS methods}{23}{0}{3}
 \beamer@sectionintoc {4}{MADS}{39}{0}{4}
 \beamer@sectionintoc {5}{MO-MADS}{44}{0}{5}
-\beamer@sectionintoc {6}{implementations}{58}{0}{6}
-\beamer@sectionintoc {7}{Example}{60}{0}{7}
+\beamer@sectionintoc {6}{implementations}{59}{0}{6}
+\beamer@sectionintoc {7}{Example}{61}{0}{7}

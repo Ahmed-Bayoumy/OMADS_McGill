@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.22)  24 OCT 2024 21:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.22)  24 OCT 2024 22:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1372,100 +1372,102 @@ Missing character: There is no ; in font nullfont!
 
 ] [49
 
+] [50
+
 ]
-<Figures/Pareto_0.png, id=4663, 333.245pt x 168.63pt>
+<Figures/Pareto_0.png, id=4720, 333.245pt x 168.63pt>
 File: Figures/Pareto_0.png Graphic file (type png)
 <use Figures/Pareto_0.png>
-Package pdftex.def Info: Figures/Pareto_0.png  used on input line 1347.
+Package pdftex.def Info: Figures/Pareto_0.png  used on input line 1350.
 (pdftex.def)             Requested size: 245.83282pt x 124.40085pt.
- [50
+ [51
 
  <./Figures/Pareto_0.png>]
 pdfTeX warning (ext4): destination with the same identifier (name{alg:seq}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1385 }
-         [51
+l.1388 }
+         [52
 
-] [52
+] [53
 
 ]
-<Figures/gamma.png, id=4988, 213.79875pt x 147.55125pt>
+<Figures/gamma.png, id=5046, 213.79875pt x 147.55125pt>
 File: Figures/gamma.png Graphic file (type png)
 <use Figures/gamma.png>
-Package pdftex.def Info: Figures/gamma.png  used on input line 1454.
+Package pdftex.def Info: Figures/gamma.png  used on input line 1457.
 (pdftex.def)             Requested size: 99.86826pt x 68.92355pt.
 
-Overfull \vbox (2.90524pt too high) detected at line 1454
+Overfull \vbox (2.90524pt too high) detected at line 1457
  []
 
-[53
+[54
 
  <./Figures/gamma.png>]
-<Figures/ZOI_MO.png, id=5097, 315.1775pt x 154.5775pt>
+<Figures/ZOI_MO.png, id=5154, 315.1775pt x 154.5775pt>
 File: Figures/ZOI_MO.png Graphic file (type png)
 <use Figures/ZOI_MO.png>
-Package pdftex.def Info: Figures/ZOI_MO.png  used on input line 1463.
+Package pdftex.def Info: Figures/ZOI_MO.png  used on input line 1466.
 (pdftex.def)             Requested size: 307.28987pt x 150.71832pt.
- [54
-
- <./Figures/ZOI_MO.png>]
-<Figures/MO-const.png, id=5205, 1967.35pt x 983.675pt>
-File: Figures/MO-const.png Graphic file (type png)
-<use Figures/MO-const.png>
-Package pdftex.def Info: Figures/MO-const.png  used on input line 1473.
-(pdftex.def)             Requested size: 307.28987pt x 153.6388pt.
  [55
 
- <./Figures/MO-const.png>]
-<Figures/MO-unconst.png, id=5316, 1967.35pt x 983.675pt>
-File: Figures/MO-unconst.png Graphic file (type png)
-<use Figures/MO-unconst.png>
-Package pdftex.def Info: Figures/MO-unconst.png  used on input line 1483.
+ <./Figures/ZOI_MO.png>]
+<Figures/MO-const.png, id=5264, 1967.35pt x 983.675pt>
+File: Figures/MO-const.png Graphic file (type png)
+<use Figures/MO-const.png>
+Package pdftex.def Info: Figures/MO-const.png  used on input line 1476.
 (pdftex.def)             Requested size: 307.28987pt x 153.6388pt.
  [56
 
- <./Figures/MO-unconst.png>] [57
+ <./Figures/MO-const.png>]
+<Figures/MO-unconst.png, id=5374, 1967.35pt x 983.675pt>
+File: Figures/MO-unconst.png Graphic file (type png)
+<use Figures/MO-unconst.png>
+Package pdftex.def Info: Figures/MO-unconst.png  used on input line 1486.
+(pdftex.def)             Requested size: 307.28987pt x 153.6388pt.
+ [57
 
-] [58
+ <./Figures/MO-unconst.png>] [58
 
 ] [59
+
+] [60
 
 ]
 File: Figures/Fig20-b.pdf Graphic file (type pdf)
 <use Figures/Fig20-b.pdf>
-Package pdftex.def Info: Figures/Fig20-b.pdf  used on input line 1607.
+Package pdftex.def Info: Figures/Fig20-b.pdf  used on input line 1610.
 (pdftex.def)             Requested size: 122.9164pt x 118.43274pt.
- [60
+ [61
 
 ]
-<Figures/results2.png, id=5861, 791.904pt x 468.66pt>
+<Figures/results2.png, id=5919, 791.904pt x 468.66pt>
 File: Figures/results2.png Graphic file (type png)
 <use Figures/results2.png>
-Package pdftex.def Info: Figures/results2.png  used on input line 1627.
+Package pdftex.def Info: Figures/results2.png  used on input line 1630.
 (pdftex.def)             Requested size: 169.01035pt x 100.02336pt.
 
-Overfull \hbox (15.36542pt too wide) in paragraph at lines 1627--1627
+Overfull \hbox (15.36542pt too wide) in paragraph at lines 1630--1630
  [] 
  []
 
 File: Figures/Fig20-b.pdf Graphic file (type pdf)
 <use Figures/Fig20-b.pdf>
-Package pdftex.def Info: Figures/Fig20-b.pdf  used on input line 1627.
+Package pdftex.def Info: Figures/Fig20-b.pdf  used on input line 1630.
 (pdftex.def)             Requested size: 122.9164pt x 118.43274pt.
-[61
+[62
 
  <./Figures/results2.png>]
-<Figures/results.png, id=5971, 482.7636pt x 535.5207pt>
+<Figures/results.png, id=6029, 482.7636pt x 535.5207pt>
 File: Figures/results.png Graphic file (type png)
 <use Figures/results.png>
-Package pdftex.def Info: Figures/results.png  used on input line 1647.
+Package pdftex.def Info: Figures/results.png  used on input line 1650.
 (pdftex.def)             Requested size: 138.2795pt x 153.3931pt.
 File: Figures/Fig20-b.pdf Graphic file (type pdf)
 <use Figures/Fig20-b.pdf>
-Package pdftex.def Info: Figures/Fig20-b.pdf  used on input line 1647.
+Package pdftex.def Info: Figures/Fig20-b.pdf  used on input line 1650.
 (pdftex.def)             Requested size: 122.9164pt x 118.43274pt.
- [62
+ [63
 
  <./Figures/results.png>]
 \tf@nav=\write6
@@ -1497,18 +1499,18 @@ Package rerunfilecheck Info: File `McGILL_OMADS.out' has not changed.
 (rerunfilecheck)             Checksum: D5E4DF270A96EAA7BA996185D95DD79D;619.
  ) 
 Here is how much of TeX's memory you used:
- 44859 strings out of 474116
- 1068583 string characters out of 5743681
+ 44867 strings out of 474116
+ 1068710 string characters out of 5743681
  1979187 words of memory out of 5000000
- 66191 multiletter control sequences out of 15000+600000
+ 66197 multiletter control sequences out of 15000+600000
  613738 words of font info for 160 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,20n,123p,810b,2600s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/ahmedb/Library/texlive/2024/texmf-var/fonts/pk/ljfour/public/bbm/bbm8.600pk></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcirclew.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/latxfont/linew10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
-Output written on McGILL_OMADS.pdf (62 pages, 3700308 bytes).
+Output written on McGILL_OMADS.pdf (63 pages, 3704914 bytes).
 PDF statistics:
- 6143 PDF objects out of 6186 (max. 8388607)
- 3660 compressed objects within 37 object streams
- 133 named destinations out of 1000 (max. 500000)
+ 6201 PDF objects out of 7423 (max. 8388607)
+ 3716 compressed objects within 38 object streams
+ 135 named destinations out of 1000 (max. 500000)
  194 words of extra memory for PDF output out of 10000 (max. 10000000)
 

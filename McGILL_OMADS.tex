@@ -1251,7 +1251,7 @@ at distance $\Delta_k$ from $x_k$
 
   \begin{columns}[T]
     \begin{column}{0.5\textwidth}
-      \begin{block}<1-4>{Definition: Pareto dominance}
+      \begin{block}<1-5>{Definition: Pareto dominance}
         {\it Given two decision vectors $x_{1}$ and $x_{2}$ in the feasible decision set, it is said that:}
         \begin{itemize}
           \item $x_{1} \leq x_{2}$ ($x_{1}$ {\color{myblue}weakly dominates} $x_{2}$) iff $\forall i=1,2,\dots,m,f_{i}(x_{1})\leq f_{i}(x_{2})$
@@ -1285,9 +1285,10 @@ at distance $\Delta_k$ from $x_k$
           %                 (0.4,0.4),
           %                 (0.3, 0.6)} 
           \only<1->{\addplot[mark=only marks, color=black!, mark=o,] coordinates {(0.5,0.5)};}
-          \only<2>{\addplot[mark=only marks, color=black!, mark=*,] coordinates {(0.6,0.6)};}
-          \only<3>{\addplot[mark=only marks, color=black!, mark=*,] coordinates {(0.4,0.4)};}
+          \only<2>{\addplot[mark=only marks, color=black!, mark=*,] coordinates {(0.5,0.6)};}
+          \only<3>{\addplot[mark=only marks, color=black!, mark=*,] coordinates {(0.6,0.6)};}
           \only<4>{\addplot[mark=only marks, color=black!, mark=o,] coordinates {(0.3,0.6)};}
+          \only<5>{\addplot[mark=only marks, color=black!, mark=*,] coordinates {(0.4,0.4)};}
           \only<2->{\addplot+ [fill,
           no marks,
           color=gray!50] coordinates {
@@ -1304,8 +1305,10 @@ at distance $\Delta_k$ from $x_k$
           ;
           \only<1->{\node at (0.6,0.45) {$f({x_{1}})$};}
           \only<2>{\node at (0.5,0.7) {$f({x_{2}})$};}
-          \only<3>{\node at (0.5,0.3) {$f({x_{2}})$};}
+          \only<3>{\node at (0.6,0.7) {$f({x_{2}})$};}
           \only<4>{\node at (0.2,0.6) {$f({x_{2}})$};}
+          \only<5>{\node at (0.4,0.3) {$f({x_{3}})$};}
+          \only<5>{\addplot[mark=only marks, color=black!, mark=o,] coordinates {(0.4,0.4)};}
           \only<2->{\node at (0.75,0.9) {Dominated zone};}
           \only<3->{\node at (0.25,0.1) {Dominance zone};}
           \only<4->{\node at (0.75,0.1) {Indifference zone};}
