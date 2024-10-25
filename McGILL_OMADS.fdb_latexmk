@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1729822227.63799 "/Users/ahmedb/Data/Research/presentations/OMADS_McGill/McGILL_OMADS.tex" "McGILL_OMADS.pdf" "McGILL_OMADS" 1729822244.74296 0
-  "/Users/ahmedb/Data/Research/presentations/OMADS_McGill/McGILL_OMADS.tex" 1729822219.80408 57171 4ac9a34911865760de099e8472c43be4 ""
+["pdflatex"] 1729829105.61042 "/Users/ahmedb/Data/Research/presentations/OMADS_McGill/McGILL_OMADS.tex" "McGILL_OMADS.pdf" "McGILL_OMADS" 1729829124.92076 2
+  "/Users/ahmedb/Data/Research/presentations/OMADS_McGill/McGILL_OMADS.tex" 1729828981.86535 59169 2a9196016a6655636f4fcf2f7e1d016e ""
   "/Users/ahmedb/Library/texlive/2024/texmf-var/fonts/pk/ljfour/public/bbm/bbm8.600pk" 1729648751.09849 5580 b1a116078d70cbcbb8a816491f89b342 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -374,6 +374,7 @@
   "Figures/Pareto_0.png" 1729736404.37047 48484 6a967fcefb3d5cf6fa31e598b89346f0 ""
   "Figures/Poll-Mesh.png" 1669731671.31618 114956 02410604489bca31ab207b8b830596fb ""
   "Figures/ZOI_MO.png" 1729817622.68526 16005 1faf06c4ed410a5c1506567ac5425001 ""
+  "Figures/colab-badge.png" 1729824258.38489 2290 56dc80bf4c3fa8c59dac42c8be7c5979 ""
   "Figures/fathom.jpeg" 1669612568.43226 410025 76e0f46125f50e4b897ad5b5c3dd8cbc ""
   "Figures/flow-chart.png" 1669731490.11062 1211598 18f8201d332543a16fd2422b9fca72ea ""
   "Figures/gamma.png" 1729743274.22515 12657 998e0495359ab98d5d82f246e73b5bf1 ""
@@ -382,10 +383,10 @@
   "Figures/results.png" 1669769465.23599 40927 2f05c9b9b3049688109419e9fd7b41ce ""
   "Figures/results2.png" 1669769529.15838 200775 43341e919ce5fa5ce0bed35789cf225f ""
   "Figures/smooth.pdf" 1669715617.39088 57551 c53317d6df638e96bf79a7ec658f47a8 ""
-  "McGILL_OMADS.aux" 1729822244.5214 9178 a353c47f57ef24f694822c52f98c2e67 "pdflatex"
-  "McGILL_OMADS.nav" 1729822244.52348 5338 2d264b0052e9fab412982d7e102fd583 "pdflatex"
-  "McGILL_OMADS.out" 1729822244.52301 619 d5e4df270a96eaa7ba996185d95dd79d "pdflatex"
-  "McGILL_OMADS.tex" 1729822219.80408 57171 4ac9a34911865760de099e8472c43be4 ""
+  "McGILL_OMADS.aux" 1729829124.60561 9435 ba9eeae90d9f407974c65b27414d508c "pdflatex"
+  "McGILL_OMADS.nav" 1729829124.6077 5523 3a9f9fa54a143576213b3ed15b577fe4 "pdflatex"
+  "McGILL_OMADS.out" 1729829124.60734 619 d5e4df270a96eaa7ba996185d95dd79d "pdflatex"
+  "McGILL_OMADS.tex" 1729828981.86535 59169 2a9196016a6655636f4fcf2f7e1d016e ""
   (generated)
   "McGILL_OMADS.aux"
   "McGILL_OMADS.log"

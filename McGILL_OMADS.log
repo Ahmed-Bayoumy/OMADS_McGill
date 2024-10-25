@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.22)  24 OCT 2024 22:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.22)  25 OCT 2024 00:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -938,35 +938,31 @@ File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryquotes.code.tex
 File: tikzlibraryquotes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 75.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 76.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-) (./McGILL_OMADS.aux
-
-LaTeX Warning: Label `alg:seq' multiply defined.
-
 )
+No file McGILL_OMADS.aux.
 \openout1 = `McGILL_OMADS.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1020,8 +1016,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 75.
- (./McGILL_OMADS.out) (./McGILL_OMADS.out)
+Package hyperref Info: Link coloring OFF on input line 76.
 \@outlinefile=\write5
 \openout5 = `McGILL_OMADS.out'.
 
@@ -1044,32 +1039,32 @@ Package caption Info: End \AtBeginDocument code.
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 (./McGILL_OMADS.nav)
-LaTeX Font Info:    Trying to load font information for OT1+ptmcm on input line 75.
+LaTeX Font Info:    Trying to load font information for OT1+ptmcm on input line 76.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptmcm.fd
 File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ptmcm on input line 75.
+LaTeX Font Info:    Trying to load font information for OML+ptmcm on input line 76.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omlptmcm.fd
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+pzccm on input line 75.
+LaTeX Font Info:    Trying to load font information for OMS+pzccm on input line 76.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+psycm on input line 75.
+LaTeX Font Info:    Trying to load font information for OMX+psycm on input line 76.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omxpsycm.fd
 File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 75.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 76.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 75.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 76.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 75.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
  [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 ] [2
@@ -1078,72 +1073,72 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 193.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 194.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 193.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 194.
  [4
 
 ]
-<Figures/Fig20-b.pdf, id=524, 192.72pt x 185.69376pt>
+<Figures/Fig20-b.pdf, id=515, 192.72pt x 185.69376pt>
 File: Figures/Fig20-b.pdf Graphic file (type pdf)
 <use Figures/Fig20-b.pdf>
-Package pdftex.def Info: Figures/Fig20-b.pdf  used on input line 193.
+Package pdftex.def Info: Figures/Fig20-b.pdf  used on input line 194.
 (pdftex.def)             Requested size: 96.79521pt x 93.26599pt.
 
 
 pdfTeX warning: pdflatex (file ./Figures/Fig23-b.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Figures/Fig23-b.pdf, id=525, 417.11835pt x 210.7875pt>
+<Figures/Fig23-b.pdf, id=516, 417.11835pt x 210.7875pt>
 File: Figures/Fig23-b.pdf Graphic file (type pdf)
 <use Figures/Fig23-b.pdf>
-Package pdftex.def Info: Figures/Fig23-b.pdf  used on input line 193.
+Package pdftex.def Info: Figures/Fig23-b.pdf  used on input line 194.
 (pdftex.def)             Requested size: 169.01035pt x 85.40706pt.
 
-Overfull \hbox (15.36542pt too wide) in paragraph at lines 193--193
+Overfull \hbox (15.36542pt too wide) in paragraph at lines 194--194
  [] 
  []
 
 
-Overfull \vbox (13.98239pt too high) detected at line 193
+Overfull \vbox (13.98239pt too high) detected at line 194
  []
 
 [5
 
  <./Figures/Fig20-b.pdf> <./Figures/Fig23-b.pdf>]
-<Figures/noisy.jpeg, id=599, 642.4pt x 457.71pt>
+<Figures/noisy.jpeg, id=592, 642.4pt x 457.71pt>
 File: Figures/noisy.jpeg Graphic file (type jpg)
 <use Figures/noisy.jpeg>
-Package pdftex.def Info: Figures/noisy.jpeg  used on input line 193.
+Package pdftex.def Info: Figures/noisy.jpeg  used on input line 194.
 (pdftex.def)             Requested size: 122.91406pt x 87.57341pt.
  [6
 
  <./Figures/noisy.jpeg>]
-<Figures/BB_challenges.png, id=657, 956.57375pt x 185.69376pt>
+<Figures/BB_challenges.png, id=652, 956.57375pt x 185.69376pt>
 File: Figures/BB_challenges.png Graphic file (type png)
 <use Figures/BB_challenges.png>
-Package pdftex.def Info: Figures/BB_challenges.png  used on input line 193.
+Package pdftex.def Info: Figures/BB_challenges.png  used on input line 194.
 (pdftex.def)             Requested size: 276.559pt x 53.68546pt.
  [7
 
  <./Figures/BB_challenges.png>]
-<Figures/fathom.jpeg, id=719, 1231.60126pt x 1243.64626pt>
+<Figures/fathom.jpeg, id=716, 1231.60126pt x 1243.64626pt>
 File: Figures/fathom.jpeg Graphic file (type jpg)
 <use Figures/fathom.jpeg>
-Package pdftex.def Info: Figures/fathom.jpeg  used on input line 193.
+Package pdftex.def Info: Figures/fathom.jpeg  used on input line 194.
 (pdftex.def)             Requested size: 107.55333pt x 108.60245pt.
 
-Overfull \vbox (16.57079pt too high) detected at line 193
+Overfull \vbox (16.57079pt too high) detected at line 194
  []
 
 [8
 
  <./Figures/fathom.jpeg>]
-<Figures/GAV.png, id=827, 956.57375pt x 666.49pt>
+<Figures/GAV.png, id=828, 956.57375pt x 666.49pt>
 File: Figures/GAV.png Graphic file (type png)
 <use Figures/GAV.png>
-Package pdftex.def Info: Figures/GAV.png  used on input line 199.
+Package pdftex.def Info: Figures/GAV.png  used on input line 200.
 (pdftex.def)             Requested size: 291.92444pt x 203.3961pt.
 
-Overfull \vbox (5.65659pt too high) detected at line 199
+Overfull \vbox (5.65659pt too high) detected at line 200
  []
 
 [9
@@ -1157,10 +1152,10 @@ Overfull \vbox (5.65659pt too high) detected at line 199
 ] [13
 
 ]
-<Figures/CNN.png, id=1321, 1669.23625pt x 576.1525pt>
+<Figures/CNN.png, id=1340, 1669.23625pt x 576.1525pt>
 File: Figures/CNN.png Graphic file (type png)
 <use Figures/CNN.png>
-Package pdftex.def Info: Figures/CNN.png  used on input line 274.
+Package pdftex.def Info: Figures/CNN.png  used on input line 275.
 (pdftex.def)             Requested size: 245.83282pt x 84.84549pt.
  [14
 
@@ -1172,17 +1167,17 @@ Package pdftex.def Info: Figures/CNN.png  used on input line 274.
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 410.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 411.
  [18
 
 ]
-<Figures/smooth.pdf, id=1862, 529.98pt x 249.93375pt>
+<Figures/smooth.pdf, id=1902, 529.98pt x 249.93375pt>
 File: Figures/smooth.pdf Graphic file (type pdf)
 <use Figures/smooth.pdf>
-Package pdftex.def Info: Figures/smooth.pdf  used on input line 425.
+Package pdftex.def Info: Figures/smooth.pdf  used on input line 426.
 (pdftex.def)             Requested size: 370.98346pt x 174.95242pt.
 
-Overfull \hbox (36.76086pt too wide) in paragraph at lines 425--425
+Overfull \hbox (36.76086pt too wide) in paragraph at lines 426--426
 []|  []  
  []
 
@@ -1197,98 +1192,98 @@ Overfull \hbox (36.76086pt too wide) in paragraph at lines 425--425
 ] [23
 
 ]
-<Figures/maniac.jpeg, id=2449, 500.87125pt x 570.13pt>
+<Figures/maniac.jpeg, id=2510, 500.87125pt x 570.13pt>
 File: Figures/maniac.jpeg Graphic file (type jpg)
 <use Figures/maniac.jpeg>
-Package pdftex.def Info: Figures/maniac.jpeg  used on input line 774.
+Package pdftex.def Info: Figures/maniac.jpeg  used on input line 775.
 (pdftex.def)             Requested size: 122.91641pt x 139.9136pt.
 
-Overfull \hbox (35.2824pt too wide) detected at line 774
+Overfull \hbox (35.2824pt too wide) detected at line 775
 [][][] [][][][][][][][][] [][][][][][][] 
  []
 
 [24
 
  <./Figures/maniac.jpeg>]
-LaTeX Font Info:    Trying to load font information for U+bbm on input line 774.
+LaTeX Font Info:    Trying to load font information for U+bbm on input line 775.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/bbm-macros/ubbm.fd
 File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
 )
-Overfull \hbox (35.2824pt too wide) detected at line 774
+Overfull \hbox (35.2824pt too wide) detected at line 775
 [][][] [][][][][][][][][] [][][][][][][] 
  []
 
 [25
 
 ]
-Overfull \hbox (35.2824pt too wide) detected at line 774
+Overfull \hbox (35.2824pt too wide) detected at line 775
 [][][] [][][][][][][][][] [][][][][][][] 
  []
 
 [26
 
 ]
-Overfull \hbox (35.2824pt too wide) detected at line 774
+Overfull \hbox (35.2824pt too wide) detected at line 775
 [][][] [][][][][][][][][] [][][][][][][] 
  []
 
 [27
 
 ]
-Overfull \hbox (35.2824pt too wide) detected at line 774
+Overfull \hbox (35.2824pt too wide) detected at line 775
 [][][] [][][][][][][][][] [][][][][][][] 
  []
 
 [28
 
 ]
-Overfull \hbox (35.2824pt too wide) detected at line 774
+Overfull \hbox (35.2824pt too wide) detected at line 775
 [][][] [][][][][][][][][] [][][][][][][] 
  []
 
 [29
 
 ]
-Overfull \hbox (35.2824pt too wide) detected at line 774
+Overfull \hbox (35.2824pt too wide) detected at line 775
 [][][] [][][][][][][][][] [][][][][][][] 
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 774.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 775.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [30
 
 ]
-<Figures/CS_variants.png, id=2905, 766.865pt x 580.1675pt>
+<Figures/CS_variants.png, id=2982, 766.865pt x 580.1675pt>
 File: Figures/CS_variants.png Graphic file (type png)
 <use Figures/CS_variants.png>
-Package pdftex.def Info: Figures/CS_variants.png  used on input line 780.
+Package pdftex.def Info: Figures/CS_variants.png  used on input line 781.
 (pdftex.def)             Requested size: 245.83282pt x 185.97607pt.
  [31
 
  <./Figures/CS_variants.png>]
-Overfull \hbox (35.2824pt too wide) detected at line 880
+Overfull \hbox (35.2824pt too wide) detected at line 881
 [][][] [][][][][][][][][] [][][][][][][] 
  []
 
 [32
 
 ]
-Overfull \hbox (35.2824pt too wide) detected at line 880
+Overfull \hbox (35.2824pt too wide) detected at line 881
 [][][] [][][][][][][][][] [][][][][][][] 
  []
 
 [33
 
 ]
-Overfull \hbox (35.2824pt too wide) detected at line 880
+Overfull \hbox (35.2824pt too wide) detected at line 881
 [][][] [][][][][][][][][] [][][][][][][] 
  []
 
 [34
 
 ]
-Overfull \hbox (35.2824pt too wide) detected at line 880
+Overfull \hbox (35.2824pt too wide) detected at line 881
 [][][] [][][][][][][][][] [][][][][][][] 
  []
 
@@ -1296,11 +1291,11 @@ Overfull \hbox (35.2824pt too wide) detected at line 880
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 958.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 959.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 958.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 959.
 
-Overfull \hbox (104.7042pt too wide) in paragraph at lines 958--958
+Overfull \hbox (104.7042pt too wide) in paragraph at lines 959--959
  []$ 
  []
 
@@ -1308,10 +1303,10 @@ Overfull \hbox (104.7042pt too wide) in paragraph at lines 958--958
 
 ]
 
-LaTeX Warning: \oval, \circle, or \line size unavailable on input line 1083.
+LaTeX Warning: \oval, \circle, or \line size unavailable on input line 1084.
 
 
-LaTeX Warning: \oval, \circle, or \line size unavailable on input line 1083.
+LaTeX Warning: \oval, \circle, or \line size unavailable on input line 1084.
 
 [37
 
@@ -1320,43 +1315,95 @@ LaTeX Warning: \oval, \circle, or \line size unavailable on input line 1083.
 ] [39
 
 ]
-<Figures/flow-chart.png, id=3731, 544.872pt x 348.21pt>
+<Figures/flow-chart.png, id=3840, 544.872pt x 348.21pt>
 File: Figures/flow-chart.png Graphic file (type png)
 <use Figures/flow-chart.png>
-Package pdftex.def Info: Figures/flow-chart.png  used on input line 1139.
+Package pdftex.def Info: Figures/flow-chart.png  used on input line 1140.
 (pdftex.def)             Requested size: 276.559pt x 176.74525pt.
  [40
 
  <./Figures/flow-chart.png>]
-<Figures/Poll-Mesh.png, id=3841, 508.90125pt x 221.82875pt>
+<Figures/Poll-Mesh.png, id=3953, 508.90125pt x 221.82875pt>
 File: Figures/Poll-Mesh.png Graphic file (type png)
 <use Figures/Poll-Mesh.png>
-Package pdftex.def Info: Figures/Poll-Mesh.png  used on input line 1161.
+Package pdftex.def Info: Figures/Poll-Mesh.png  used on input line 1162.
 (pdftex.def)             Requested size: 153.64493pt x 66.97223pt.
  [41
 
  <./Figures/Poll-Mesh.png>]
 File: Figures/Poll-Mesh.png Graphic file (type png)
 <use Figures/Poll-Mesh.png>
-Package pdftex.def Info: Figures/Poll-Mesh.png  used on input line 1178.
+Package pdftex.def Info: Figures/Poll-Mesh.png  used on input line 1179.
 (pdftex.def)             Requested size: 153.64493pt x 66.97223pt.
  [42
 
 ] [43
 
-] [44
-
-] [45
-
 ]
-Missing character: There is no - in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no ; in font nullfont!
-[46
+/Users/ahmedb/Data/Research/presentations/OMADS_McGill/McGILL_OMADS.tex:1218: Illegal parameter number in definition of \iterate.
+<to be read again> 
+                   s
+l.1218 }
+        
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+/Users/ahmedb/Data/Research/presentations/OMADS_McGill/McGILL_OMADS.tex:1218: Illegal parameter number in definition of \iterate.
+<to be read again> 
+                   s
+l.1218 }
+        
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+/Users/ahmedb/Data/Research/presentations/OMADS_McGill/McGILL_OMADS.tex:1218: Illegal parameter number in definition of \beamer@doifinframe.
+<to be read again> 
+                   s
+l.1218 }
+        
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+/Users/ahmedb/Data/Research/presentations/OMADS_McGill/McGILL_OMADS.tex:1218: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   s
+l.1218 }
+        
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+/Users/ahmedb/Data/Research/presentations/OMADS_McGill/McGILL_OMADS.tex:1218: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   s
+l.1218 }
+        
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+/Users/ahmedb/Data/Research/presentations/OMADS_McGill/McGILL_OMADS.tex:1218: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   s
+l.1218 }
+        
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+<Figures/colab-badge.png, id=4292, 117.43875pt x 20.075pt>
+File: Figures/colab-badge.png Graphic file (type png)
+<use Figures/colab-badge.png>
+Package pdftex.def Info: Figures/colab-badge.png  used on input line 1218.
+(pdftex.def)             Requested size: 56.9055pt x 9.72746pt.
+[44
+
+ <./Figures/colab-badge.png>] [45
+
+] [46
 
 ]
 Missing character: There is no - in font nullfont!
@@ -1368,106 +1415,177 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no ; in font nullfont!
 [47
 
-] [48
+]
+Missing character: There is no - in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ; in font nullfont!
+[48
 
 ] [49
 
 ] [50
 
+] [51
+
 ]
-<Figures/Pareto_0.png, id=4720, 333.245pt x 168.63pt>
+<Figures/Pareto_0.png, id=4981, 333.245pt x 168.63pt>
 File: Figures/Pareto_0.png Graphic file (type png)
 <use Figures/Pareto_0.png>
-Package pdftex.def Info: Figures/Pareto_0.png  used on input line 1350.
+Package pdftex.def Info: Figures/Pareto_0.png  used on input line 1374.
 (pdftex.def)             Requested size: 245.83282pt x 124.40085pt.
- [51
+ [52
 
  <./Figures/Pareto_0.png>]
 pdfTeX warning (ext4): destination with the same identifier (name{alg:seq}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1388 }
-         [52
+l.1412 }
+         [53
 
-] [53
+] [54
 
 ]
-<Figures/gamma.png, id=5046, 213.79875pt x 147.55125pt>
+<Figures/gamma.png, id=5318, 213.79875pt x 147.55125pt>
 File: Figures/gamma.png Graphic file (type png)
 <use Figures/gamma.png>
-Package pdftex.def Info: Figures/gamma.png  used on input line 1457.
+Package pdftex.def Info: Figures/gamma.png  used on input line 1481.
 (pdftex.def)             Requested size: 99.86826pt x 68.92355pt.
 
-Overfull \vbox (2.90524pt too high) detected at line 1457
+Overfull \vbox (2.90524pt too high) detected at line 1481
  []
 
-[54
+[55
 
  <./Figures/gamma.png>]
-<Figures/ZOI_MO.png, id=5154, 315.1775pt x 154.5775pt>
+<Figures/ZOI_MO.png, id=5432, 315.1775pt x 154.5775pt>
 File: Figures/ZOI_MO.png Graphic file (type png)
 <use Figures/ZOI_MO.png>
-Package pdftex.def Info: Figures/ZOI_MO.png  used on input line 1466.
+Package pdftex.def Info: Figures/ZOI_MO.png  used on input line 1490.
 (pdftex.def)             Requested size: 307.28987pt x 150.71832pt.
- [55
-
- <./Figures/ZOI_MO.png>]
-<Figures/MO-const.png, id=5264, 1967.35pt x 983.675pt>
-File: Figures/MO-const.png Graphic file (type png)
-<use Figures/MO-const.png>
-Package pdftex.def Info: Figures/MO-const.png  used on input line 1476.
-(pdftex.def)             Requested size: 307.28987pt x 153.6388pt.
  [56
 
+ <./Figures/ZOI_MO.png>]
+/Users/ahmedb/Data/Research/presentations/OMADS_McGill/McGILL_OMADS.tex:1512: Illegal parameter number in definition of \iterate.
+<to be read again> 
+                   s
+l.1512 }
+        
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+/Users/ahmedb/Data/Research/presentations/OMADS_McGill/McGILL_OMADS.tex:1512: Illegal parameter number in definition of \iterate.
+<to be read again> 
+                   s
+l.1512 }
+        
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+/Users/ahmedb/Data/Research/presentations/OMADS_McGill/McGILL_OMADS.tex:1512: Illegal parameter number in definition of \beamer@doifinframe.
+<to be read again> 
+                   s
+l.1512 }
+        
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+/Users/ahmedb/Data/Research/presentations/OMADS_McGill/McGILL_OMADS.tex:1512: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   s
+l.1512 }
+        
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+/Users/ahmedb/Data/Research/presentations/OMADS_McGill/McGILL_OMADS.tex:1512: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   s
+l.1512 }
+        
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+/Users/ahmedb/Data/Research/presentations/OMADS_McGill/McGILL_OMADS.tex:1512: Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   s
+l.1512 }
+        
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+File: Figures/colab-badge.png Graphic file (type png)
+<use Figures/colab-badge.png>
+Package pdftex.def Info: Figures/colab-badge.png  used on input line 1512.
+(pdftex.def)             Requested size: 56.9055pt x 9.72746pt.
+[57
+
+]
+<Figures/MO-const.png, id=5657, 1967.35pt x 983.675pt>
+File: Figures/MO-const.png Graphic file (type png)
+<use Figures/MO-const.png>
+Package pdftex.def Info: Figures/MO-const.png  used on input line 1522.
+(pdftex.def)             Requested size: 307.28987pt x 153.6388pt.
+ [58
+
  <./Figures/MO-const.png>]
-<Figures/MO-unconst.png, id=5374, 1967.35pt x 983.675pt>
+<Figures/MO-unconst.png, id=5771, 1967.35pt x 983.675pt>
 File: Figures/MO-unconst.png Graphic file (type png)
 <use Figures/MO-unconst.png>
-Package pdftex.def Info: Figures/MO-unconst.png  used on input line 1486.
+Package pdftex.def Info: Figures/MO-unconst.png  used on input line 1532.
 (pdftex.def)             Requested size: 307.28987pt x 153.6388pt.
- [57
+ [59
 
- <./Figures/MO-unconst.png>] [58
+ <./Figures/MO-unconst.png>] [60
 
-] [59
+] [61
 
-] [60
+] [62
 
 ]
 File: Figures/Fig20-b.pdf Graphic file (type pdf)
 <use Figures/Fig20-b.pdf>
-Package pdftex.def Info: Figures/Fig20-b.pdf  used on input line 1610.
+Package pdftex.def Info: Figures/Fig20-b.pdf  used on input line 1656.
 (pdftex.def)             Requested size: 122.9164pt x 118.43274pt.
- [61
+ [63
 
 ]
-<Figures/results2.png, id=5919, 791.904pt x 468.66pt>
+<Figures/results2.png, id=6339, 791.904pt x 468.66pt>
 File: Figures/results2.png Graphic file (type png)
 <use Figures/results2.png>
-Package pdftex.def Info: Figures/results2.png  used on input line 1630.
+Package pdftex.def Info: Figures/results2.png  used on input line 1676.
 (pdftex.def)             Requested size: 169.01035pt x 100.02336pt.
 
-Overfull \hbox (15.36542pt too wide) in paragraph at lines 1630--1630
+Overfull \hbox (15.36542pt too wide) in paragraph at lines 1676--1676
  [] 
  []
 
 File: Figures/Fig20-b.pdf Graphic file (type pdf)
 <use Figures/Fig20-b.pdf>
-Package pdftex.def Info: Figures/Fig20-b.pdf  used on input line 1630.
+Package pdftex.def Info: Figures/Fig20-b.pdf  used on input line 1676.
 (pdftex.def)             Requested size: 122.9164pt x 118.43274pt.
-[62
+[64
 
  <./Figures/results2.png>]
-<Figures/results.png, id=6029, 482.7636pt x 535.5207pt>
+<Figures/results.png, id=6452, 482.7636pt x 535.5207pt>
 File: Figures/results.png Graphic file (type png)
 <use Figures/results.png>
-Package pdftex.def Info: Figures/results.png  used on input line 1650.
+Package pdftex.def Info: Figures/results.png  used on input line 1696.
 (pdftex.def)             Requested size: 138.2795pt x 153.3931pt.
 File: Figures/Fig20-b.pdf Graphic file (type pdf)
 <use Figures/Fig20-b.pdf>
-Package pdftex.def Info: Figures/Fig20-b.pdf  used on input line 1650.
+Package pdftex.def Info: Figures/Fig20-b.pdf  used on input line 1696.
 (pdftex.def)             Requested size: 122.9164pt x 118.43274pt.
- [63
+ [65
 
  <./Figures/results.png>]
 \tf@nav=\write6
@@ -1486,31 +1604,43 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-(./McGILL_OMADS.aux)
+
+Package transparent Warning: Rerun to get transparencies right.
+
+[66] (./McGILL_OMADS.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package rerunfilecheck Info: File `McGILL_OMADS.out' has not changed.
-(rerunfilecheck)             Checksum: D5E4DF270A96EAA7BA996185D95DD79D;619.
+
+LaTeX Warning: Temporary extra page added at the end. Rerun to get it removed.
+
+
+Package rerunfilecheck Warning: File `McGILL_OMADS.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `McGILL_OMADS.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D5E4DF270A96EAA7BA996185D95DD79D;619.
  ) 
 Here is how much of TeX's memory you used:
  44867 strings out of 474116
- 1068710 string characters out of 5743681
- 1979187 words of memory out of 5000000
- 66197 multiletter control sequences out of 15000+600000
+ 1068798 string characters out of 5743681
+ 1980187 words of memory out of 5000000
+ 66199 multiletter control sequences out of 15000+600000
  613738 words of font info for 160 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,20n,123p,810b,2600s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/ahmedb/Library/texlive/2024/texmf-var/fonts/pk/ljfour/public/bbm/bbm8.600pk></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcirclew.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/latxfont/linew10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
-Output written on McGILL_OMADS.pdf (63 pages, 3704914 bytes).
+Output written on McGILL_OMADS.pdf (66 pages, 3718718 bytes).
 PDF statistics:
- 6201 PDF objects out of 7423 (max. 8388607)
- 3716 compressed objects within 38 object streams
- 135 named destinations out of 1000 (max. 500000)
- 194 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6629 PDF objects out of 7423 (max. 8388607)
+ 3941 compressed objects within 40 object streams
+ 139 named destinations out of 1000 (max. 500000)
+ 143 words of extra memory for PDF output out of 10000 (max. 10000000)
 

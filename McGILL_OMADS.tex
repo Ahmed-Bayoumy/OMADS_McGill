@@ -41,6 +41,7 @@
 \usepackage{pgfplots} \pgfplotsset{compat=1.18}
 \usetikzlibrary{calc, positioning, quotes}
 
+\usepackage{hyperref}
 
 
 
@@ -1193,6 +1194,29 @@ at distance $\Delta_k$ from $x_k$
   \end{itemize}
 \end{frame}
 
+\frame{\frametitle{Example: Geometric Programming Problem }
+\href{https://colab.research.google.com/drive/1su74KlYBDeglVh-s0uA2kwaGO3bp9Buu#scrollTo=rafagcVThXZj}{%
+\includegraphics[width=2cm]{Figures/colab-badge.png}
+}
+\begin{align*}
+  \text{min}: & \ \ \ z^{2}_1 + z^{2}_2 \\
+  \text{w.r.t.}: & \ \ \ z_{1}, z_{2}, z_{3}, z_4, z_5, z_6, z_7, z_8, z_9, z_{10}, z_{11}, z_{12}, z_{13}, z_{14} \\
+  \text{s.t. }: \ \ \ & z_{i} \in [10^{-6}, 10^6 ] \ \ \forall i \\
+  & \ \ \ z^{2}_1 = z^{2}_{3} + z^{-2}_{4} + z^{2}_{5} \\
+  & \ \ \ z^{2}_2 = z^{2}_{5} + z^{2}_{6} + z^{2}_{7} \\
+  & \ \ \ z^{2}_3 = z^{2}_{8} + z^{-2}_{9} + z^{-2}_{10} + z^{2}_{11}\\
+  & \ \ \ z^{2}_6 = z^{2}_{11} + z^{2}_{12} + z^{2}_{13} + z^{2}_{14} \\
+  & \ \ \ z^{-2}_3 + z^{2}_{4} - z^{2}_{5} \leq 0 \\
+  & \ \ \ z^{2}_5 + z^{-2}_{6} - z^{2}_{7} \leq 0 \\
+  & \ \ \ z^{2}_8 + z^{2}_{9} - z^{2}_{11} \leq 0 \\
+  & \ \ \ z^{-2}_8 + z^{2}_{10} - z^{2}_{11} \leq 0 \\
+  & \ \ \ z^{2}_{11} + z^{-2}_{12} - z^{2}_{13} \leq 0 \\
+  & \ \ \ z^{2}_{11} + z^{2}_{12} - z^{2}_{14} \leq 0
+  \tag{$\mathcal{P}$}
+\end{align*}
+
+}
+
 % \section{Heuristics}
 % %------------------------------------------------------------------%
 % \frame{\frametitle{Intensification and diversification}
@@ -1463,6 +1487,28 @@ at distance $\Delta_k$ from $x_k$
   {Figures/ZOI_MO.png}
   \end{figure}
 \end{center} 
+}
+
+%-------------------------------------%
+\frame{\frametitle{Running Example} 
+%-------------------------------------%
+\href{https://colab.research.google.com/drive/1tTulzsmwn6dDdr9bKMoILmTNgNN1ZnEs#scrollTo=6smyqNm8pMSU}{%
+\includegraphics[width=2cm]{Figures/colab-badge.png}
+}
+
+\begin{align*}
+  \text{min}: & \ \ \ x_1^2 + x_2^2 + x_3^2 + x_4^2 + x_5^2 + x_6^2 \\
+  \text{min}: & \ \ \ -25*(x_1 - 1)^2 + (x_2 - 1)^2 + (x_3 - 1)^2 + (x_4 - 1)^2 + (x_5 - 1)^2 + (x_6 - 1)^2 \\
+  \text{w.r.t.}: & \ \ \ x_{1}, x_{2}, x_{3}, x_4, x_5, x_6 \\
+  % \text{s.t. }: \ \ \ & z_{i} \in [10^{-6}, 10^6 ] \ \ \forall i \\
+  & \ \ \ x_{1} + x_{2} -2 \geq 0, \\
+  & \ \ \ 6-x_{1} - x_{2} \geq 0, \\
+  & \ \ \ 2 - x_{2} + x_{1} \geq 0,\\
+  & \ \ \ 2 - x_{1} + 3x_{2} \geq 0, \\
+  & \ \ \ 4-(x_{3}-3)^{2}-x_{4} \geq 0, \\
+  & \ \ \  (x_{5}-3)^{2} + x_{6} - 4 \geq 0.
+  \tag{$\mathcal{P}$}
+\end{align*}
 }
 
 %-------------------------------------%

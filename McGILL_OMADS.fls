@@ -490,9 +490,6 @@ INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
-INPUT ./McGILL_OMADS.aux
-INPUT ./McGILL_OMADS.aux
-INPUT McGILL_OMADS.aux
 OUTPUT McGILL_OMADS.aux
 INPUT /usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -502,12 +499,6 @@ INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.st
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-INPUT ./McGILL_OMADS.out
-INPUT ./McGILL_OMADS.out
-INPUT McGILL_OMADS.out
-INPUT McGILL_OMADS.out
-INPUT ./McGILL_OMADS.out
-INPUT ./McGILL_OMADS.out
 OUTPUT McGILL_OMADS.out
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
@@ -756,6 +747,11 @@ INPUT ./Figures/Poll-Mesh.png
 INPUT ./Figures/Poll-Mesh.png
 INPUT ./Figures/Poll-Mesh.png
 INPUT ./Figures/Poll-Mesh.png
+INPUT ./Figures/colab-badge.png
+INPUT ./Figures/colab-badge.png
+INPUT ./Figures/colab-badge.png
+INPUT ./Figures/colab-badge.png
+INPUT ./Figures/colab-badge.png
 INPUT ./Figures/Pareto_0.png
 INPUT ./Figures/Pareto_0.png
 INPUT ./Figures/Pareto_0.png
@@ -778,6 +774,10 @@ INPUT ./Figures/ZOI_MO.png
 INPUT ./Figures/ZOI_MO.png
 INPUT ./Figures/ZOI_MO.png
 INPUT ./Figures/ZOI_MO.png
+INPUT ./Figures/colab-badge.png
+INPUT ./Figures/colab-badge.png
+INPUT ./Figures/colab-badge.png
+INPUT ./Figures/colab-badge.png
 INPUT ./Figures/MO-const.png
 INPUT ./Figures/MO-const.png
 INPUT ./Figures/MO-const.png

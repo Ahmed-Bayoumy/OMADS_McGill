@@ -2,6 +2,6 @@
 \beamer@sectionintoc {2}{Differentiability}{16}{0}{2}
 \beamer@sectionintoc {3}{DS methods}{23}{0}{3}
 \beamer@sectionintoc {4}{MADS}{39}{0}{4}
-\beamer@sectionintoc {5}{MO-MADS}{44}{0}{5}
-\beamer@sectionintoc {6}{implementations}{59}{0}{6}
-\beamer@sectionintoc {7}{Example}{61}{0}{7}
+\beamer@sectionintoc {5}{MO-MADS}{45}{0}{5}
+\beamer@sectionintoc {6}{implementations}{61}{0}{6}
+\beamer@sectionintoc {7}{Example}{63}{0}{7}
