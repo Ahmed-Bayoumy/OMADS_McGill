@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1729829105.61042 "/Users/ahmedb/Data/Research/presentations/OMADS_McGill/McGILL_OMADS.tex" "McGILL_OMADS.pdf" "McGILL_OMADS" 1729829124.92076 2
+["pdflatex"] 1729829288.95815 "/Users/ahmedb/Data/Research/presentations/OMADS_McGill/McGILL_OMADS.tex" "McGILL_OMADS.pdf" "McGILL_OMADS" 1729829308.3333 2
   "/Users/ahmedb/Data/Research/presentations/OMADS_McGill/McGILL_OMADS.tex" 1729828981.86535 59169 2a9196016a6655636f4fcf2f7e1d016e ""
   "/Users/ahmedb/Library/texlive/2024/texmf-var/fonts/pk/ljfour/public/bbm/bbm8.600pk" 1729648751.09849 5580 b1a116078d70cbcbb8a816491f89b342 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -383,9 +383,9 @@
   "Figures/results.png" 1669769465.23599 40927 2f05c9b9b3049688109419e9fd7b41ce ""
   "Figures/results2.png" 1669769529.15838 200775 43341e919ce5fa5ce0bed35789cf225f ""
   "Figures/smooth.pdf" 1669715617.39088 57551 c53317d6df638e96bf79a7ec658f47a8 ""
-  "McGILL_OMADS.aux" 1729829124.60561 9435 ba9eeae90d9f407974c65b27414d508c "pdflatex"
-  "McGILL_OMADS.nav" 1729829124.6077 5523 3a9f9fa54a143576213b3ed15b577fe4 "pdflatex"
-  "McGILL_OMADS.out" 1729829124.60734 619 d5e4df270a96eaa7ba996185d95dd79d "pdflatex"
+  "McGILL_OMADS.aux" 1729829308.00041 9435 ba9eeae90d9f407974c65b27414d508c "pdflatex"
+  "McGILL_OMADS.nav" 1729829308.00262 5523 3a9f9fa54a143576213b3ed15b577fe4 "pdflatex"
+  "McGILL_OMADS.out" 1729829308.00223 619 d5e4df270a96eaa7ba996185d95dd79d "pdflatex"
   "McGILL_OMADS.tex" 1729828981.86535 59169 2a9196016a6655636f4fcf2f7e1d016e ""
   (generated)
   "McGILL_OMADS.aux"
