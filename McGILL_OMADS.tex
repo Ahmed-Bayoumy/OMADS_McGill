@@ -38,6 +38,7 @@
 \usepackage{jigsaw}
 \usepackage{transparent}
 \usepackage[short]{optidef}
+\usepackage{pgfplots} \pgfplotsset{compat=1.18}
 \usetikzlibrary{calc, positioning, quotes}
 
 
@@ -55,10 +56,11 @@
 }
 
 % Authors info
-\title[\url{https://github.com/Ahmed-Bayoumy/OMADS}]{Blackbox Optimization using Mesh Adaptive Direct Search}
-\subtitle{MADS; method, algorithm and implementations}
+\title[Slides: \url{https://github.com/Ahmed-Bayoumy/OMADS_McGill} \hspace{8em}]{Derivative Free Optimization}
+\subtitle{methods, algorithms and implementations}
 \author{Ahmed Bayoumy}
 \institute{McGill University}
+
 \date{%
     \today
 }\date{\today}
@@ -67,6 +69,7 @@
     \usebeamercolor[fg]{footline}%
     \hspace{1em}%
     \insertframenumber/\inserttotalframenumber
+
 }
 
 \begin{document}
@@ -90,9 +93,9 @@
 \vspace{0.5cm}
 \item {Mesh adaptive direct search method}
 \vspace{0.5cm}
-\item {Implementations}
+\item {Multiobjective optimization using MADS}
 \vspace{0.5cm}
-\item {Running example}
+\item {Implementations}
 \end{itemize}}
 
 \only<2->
@@ -105,9 +108,9 @@
   \vspace{0.5cm}
   \item {\transparent{0.2} Mesh adaptive direct search method}
   \vspace{0.5cm}
-  \item {\transparent{0.2} Implementations}
+  \item {\transparent{0.2} Multiobjective optimization using MADS}
   \vspace{0.5cm}
-  \item {\transparent{0.2} Running example}
+  \item {\transparent{0.2} Implementations}
   \end{itemize}}
 \end{frame}
 
@@ -258,7 +261,7 @@ The decision variables $x$ can be any combination of
   \item Integer $\mathbb{N}$ or $\mathbb{Z}$
   \item binary $\{0,1\}$
   \item granular $\{0,0.05,0.10,...,0.95,1.00\}$
-  \item Categorical $\{0,0.05,0.10,...,0.95,1.00\}$
+  \item Categorical $\{\text{RELU},\tanh,\dots\}$
   \begin{itemize}
     \item Ex: Hyper-parameter optimization of deep neural network
   \end{itemize}
@@ -280,9 +283,9 @@ The decision variables $x$ can be any combination of
   \vspace{0.5cm}
   \item {\transparent{0.2} Mesh adaptive direct search method}
   \vspace{0.5cm}
-  \item {\transparent{0.2} Implementations}
+  \item {\transparent{0.2} Multiobjective optimization using MADS}
   \vspace{0.5cm}
-  \item {\transparent{0.2} Running example}
+  \item {\transparent{0.2} Implementations}
   \end{itemize}
 \end{frame}
 
@@ -493,9 +496,9 @@ The choice is obvious.
   \vspace{0.5cm}
   \item {\transparent{0.2} Mesh adaptive direct search method}
   \vspace{0.5cm}
-  \item {\transparent{0.2} Implementations}
+  \item {\transparent{0.2} Multiobjective optimization using MADS}
   \vspace{0.5cm}
-  \item {\transparent{0.2} Running example}
+  \item {\transparent{0.2} Implementations}
   \end{itemize}
 \end{frame}
 
@@ -1089,9 +1092,9 @@ at distance $\Delta_k$ from $x_k$
   \vspace{0.5cm}
   \item {Mesh adaptive direct search method}
   \vspace{0.5cm}
-  \item {\transparent{0.2} Implementations}
+  \item {\transparent{0.2} Multiobjective optimization using MADS}
   \vspace{0.5cm}
-  \item {\transparent{0.2} Running example}
+  \item {\transparent{0.2} Implementations}
   \end{itemize}
 \end{frame}
 
@@ -1184,9 +1187,314 @@ at distance $\Delta_k$ from $x_k$
   \vspace{0.5cm}
   \item {\transparent{0.2} Mesh adaptive direct search method}
   \vspace{0.5cm}
-  \item {Implementations}
+  \item {Multiobjective optimization using MADS}
   \vspace{0.5cm}
-  \item {\transparent{0.2} Running example}
+  \item {\transparent{0.2} Implementations}
+  \end{itemize}
+\end{frame}
+
+% \section{Heuristics}
+% %------------------------------------------------------------------%
+% \frame{\frametitle{Intensification and diversification}
+% %------------------------------------------------------------------%
+
+% \begin{itemize}
+
+% \item
+% { \color{myblue}Intensification}: Moves favouring local exploration and quick convergence to a local optimum.
+
+% \bigskip
+% \item
+% { \color{myblue}Diversification}: Moves favouring global exploration.
+% Perturbations or mutations that temporarily increase the objective value,
+% or generate infeasible solutions,
+% in order to escape from local optima.
+
+% \end{itemize}
+
+% }
+
+\section{MO-MADS}
+%-------------------------------------%
+\frame{\frametitle{Multiobjective optimization problem} 
+%-------------------------------------%
+\begin{itemize}
+  \item The {\color{myblue}multiobjective optimization problem (MOP)} can be formally stated as
+  \begin{mini*}
+    {x\in\Omega}{F(x)}{}{}
+  \end{mini*}
+  \item where
+  $$F: \Omega \rightarrow {\{\mathbb{R} \cup \{+\inf\}\}}^{p} $$
+  and
+  $$F(x) = (f^{(1)}(x), f^{(2)}(x), \dots, f^{(p)}(x))$$
+  \item $p$ is the number of objective functions
+  \item Case $p=2$: {\color{myblue} Biobjective optimization problem (BOP)}
+  \item The feasible set $\Omega$ remains unchanged
+  \item Typically, the different objectives are {\color{myblue} contradictory}: A decrease in one objective causes an increase in the other objectives
+\end{itemize}
+}
+
+%-------------------------------------%
+\frame{\frametitle{Trade-off challenge} 
+%-------------------------------------%
+\begin{itemize}
+  \item The {\color{myblue}Single-objective optimization} Particular case where $p = 1$. An optimal solution typically consists of one single vector $x \in \Omega$
+  \item Multiobjective optimization: There is usually no such vector that simultaneously minimizes all of the $p \leq 2$ objective functions
+  \item The solution consists of a set of {\color{myblue}trade-oﬀ solutions} in $\Omega$, the {\color{myblue}Pareto solutions}
+  \item The methods presented in this lesson construct an approximation to this set
+\end{itemize}
+}
+
+%-------------------------------------%
+\frame{\frametitle{Pareto notion} 
+%-------------------------------------%
+
+  \begin{columns}[T]
+    \begin{column}{0.5\textwidth}
+      \begin{block}<1-4>{Definition: Pareto dominance}
+        {\it Given two decision vectors $x_{1}$ and $x_{2}$ in the feasible decision set, it is said that:}
+        \begin{itemize}
+          \item $x_{1} \leq x_{2}$ ($x_{1}$ {\color{myblue}weakly dominates} $x_{2}$) iff $\forall i=1,2,\dots,m,f_{i}(x_{1})\leq f_{i}(x_{2})$
+          \item $x_{1} < x_{2}$ ($x_{1}$ {\color{myblue} dominates} $x_{2}$) iff $\forall i=1,2,\dots,m,f_{i}(x_{1})\leq f_{i}(x_{2})$ and it exists at least an index $i_{0}$ such that $f_{i_{0}}(x_{1})<f_{i_{0}}(x_{2})$
+          \item $x_{1} \thicksim  x_{2}$ ($x_{1}$ and $x_{2}$ are {\color{myblue}indifferent}) if $x_{1}$ does not dominate $x_{2}$ nor $x_{2}$ does not dominate $x_{1}$
+        \end{itemize}
+      \end{block}      
+    \end{column}
+    \begin{column}{0.5\textwidth}
+    \pgfplotsset{width=6.5cm,compat=1.18}
+    \begin{tikzpicture}
+      \begin{axis}[
+        title=Pareto plot,
+        xmin=0.0,
+        xmax=1.0,
+        ymin=0.0,
+        ymax=1.0,
+        ytick distance=0.2,
+        enlarge x limits=false,
+        ylabel style={overlay},
+        yticklabel style={overlay},
+        xlabel={$f_{1}$},
+        ylabel={$f_{2}$},
+        legend style={at={(0.5,0.97)},
+            anchor=north,legend columns=-1},
+        domain=0:1,
+    ]
+           % Example data
+          % \foreach \n in {(0.5,0.5),
+          %                 (0.6,0.6),
+          %                 (0.4,0.4),
+          %                 (0.3, 0.6)} 
+          \only<1->{\addplot[mark=only marks, color=black!, mark=o,] coordinates {(0.5,0.5)};}
+          \only<2>{\addplot[mark=only marks, color=black!, mark=*,] coordinates {(0.6,0.6)};}
+          \only<3>{\addplot[mark=only marks, color=black!, mark=*,] coordinates {(0.4,0.4)};}
+          \only<4>{\addplot[mark=only marks, color=black!, mark=o,] coordinates {(0.3,0.6)};}
+          \only<2->{\addplot+ [fill,
+          no marks,
+          color=gray!50] coordinates {
+            (0.5,0.5) (1,0.5) (1,1) (0.5,1)
+          } 
+            --cycle
+          ;}
+          \only<3->{\addplot+ [fill,
+          no marks,
+          color=gray!20] coordinates {
+            (0,0) (0.5,0) (0.5,0.5) (0.,0.5)
+          } 
+            -}-cycle
+          ;
+          \only<1->{\node at (0.6,0.45) {$f({x_{1}})$};}
+          \only<2>{\node at (0.5,0.7) {$f({x_{2}})$};}
+          \only<3>{\node at (0.5,0.3) {$f({x_{2}})$};}
+          \only<4>{\node at (0.2,0.6) {$f({x_{2}})$};}
+          \only<2->{\node at (0.75,0.9) {Dominated zone};}
+          \only<3->{\node at (0.25,0.1) {Dominance zone};}
+          \only<4->{\node at (0.75,0.1) {Indifference zone};}
+          \only<4->{\node at (0.25,0.9) {Indifference zone};}
+          % Define coordinates for the spline
+          \addplot[smooth, black] coordinates {
+            (0.1, 0.5)
+            (0.3, 0.35)
+            (0.25, 0.3)
+            (0.6, 0.15)
+            (0.7, 0.8)
+            (0.15, 0.7)
+            (0.1, 0.5)
+        };
+      \end{axis}
+    \end{tikzpicture}
+  
+    \end{column}
+  \end{columns}
+  
+}
+
+%-------------------------------------%
+\frame{\frametitle{Pareto notion} 
+%-------------------------------------%
+\begin{itemize}
+  \item A point $x^{*} \in \Omega$ is {\color{myblue}Pareto optimal} iff there is no $x \in \Omega$ such that $x < x^{*}$
+  \item The set of Pareto (optimal) solutions is the {\color{myblue}Pareto set $\Omega_{\mathcal{P}}$}
+  \item The image of $\Omega_{\mathcal{P}}$ under the mapping F defines the solution to the problem and is called the {\color{myblue}Pareto front $F_{\mathcal{P} }\subseteq \mathbb{R}^{p}$}
+\end{itemize}
+
+\begin{center}
+  \begin{figure}[H]
+  \includegraphics[width=0.8\textwidth]
+  {Figures/Pareto_0.png}
+  \end{figure}
+\end{center}
+
+}
+
+%-------------------------------------%
+\frame{\frametitle{DMulti-MADS algorithm} 
+%-------------------------------------%
+\begin{center}
+  \begin{algorithm}[H]
+    \begin{algorithmic}[1]
+      \scriptsize
+      \STATE{Initialization}\\
+      \hspace{1em} $x_{0} \in \Omega$, $\Delta^{0} \in (0, \infty)$, $\tau \in (0,1) \bigcap  \mathbb{Q}$, $w^{+} \in \mathbb{N}$\\
+      \hspace{1em} initialize the list of non dominated points $L_{0}=\{(x_{0}, \Delta_{0})\}$\\
+  
+      \STATE{Selection of the current incumbent point}\\
+      \hspace{1em} select $(x_{k}, \Delta_{k})$ element of $L_{k}$ such that $(x_{k}, \Delta_{k})=\text{selectCurrentIncumbent}(L_{k}, w^{+}, \tau)$ (see Algorithm-a)\\
+      \hspace{1em} set $\delta_{k} = \text{min} \{ \Delta_{k}, (\Delta_{k})^{2} \}$, initialize $L_{add}:=\phi$\\
+      
+      \STATE{``Optional'' global {\rd Search} on mesh $M^{k}$}\\
+      \hspace{1em} evaluate $f_{\Omega}$ on a finite set of sample points $S_{k}$ on the mesh $M_{k}$.\\
+      \hspace{1em} set $L_{add}:=\{((x_{k}, \Delta_{k})):x\in S_{k}\}$\\
+      \hspace{1em} if $t<x_{k}$ for some $t \in S_{k}$, declare the iteration as successful and go to Step 5\\
+
+      \STATE{Local {\rd Poll} on Mesh $M^{k}$}\\
+      \hspace{1em} select a positive spanning set $D^{k}_{\Delta}$\\
+      \hspace{1em} evaluate $f_{\Omega}$ at the set of poll points $P_{k}=\{x_{k}+\delta_{k}d:d\in D_{\Delta_{k}}\}$\\
+      \hspace{1em} set $L_{add}:=\{(x_{k}, \Delta_{k}):x\in P_{k} \}\cup L_{add}$\\
+      \hspace{1em} if $f(t)<f(x^{k})$ for some $t \in P^{k}=\{x^{k}+\delta^{k}d:d\in D^{k}_{\Delta}\}$ in a finite subset of the mesh $M^{k}$\\
+      \hspace{1em} if $t<x_{k}$ for some $t \in P_{k}$, declare the iteration as successful and go to Step 5\\
+
+      \STATE{Parameter update}\\
+      \hspace{1em} remove all dominated points of $L_{add}$.\\
+      \hspace{1em} call the procedure $L_{k+1} := updateList(L_{k}, L_{add}, \tau )$ (see Algorithm-b)\\
+      \hspace{1em} if the iteration is unsuccessful, replace the poll center $(x_{k}, \Delta_{k})$ by $(x_{k}, \Delta_{k+1})$ with $\Delta_{k+1} < \Delta_{k}$,.e., $\Delta_{k+1}:=\tau \Delta_{k}$ 
+    \end{algorithmic}
+    \caption*{DMulti-MADS: main algorithm}
+    \label{alg:seq}
+    \end{algorithm}
+\end{center}
+}
+
+\frame{\frametitle{DMulti-MADS algorithm: update iterate list} 
+\begin{center}
+  \begin{algorithm}[H]
+    \caption*{Algorithm a: updateList($L_{k}, L_{add},\tau$ )}
+    \begin{algorithmic}[1]
+        \FOR{$j=0,1,2,...,|L_{add}|$}
+            \IF{there exists at least an element $(x, \Delta) \in L_{k}$ such that $x_{j}<x$}
+                \STATE set $L_{k}:=L_{k}\{ (x,\Delta) \in L_{k} : x_{j} < x \}\cup (x_{j}, \tau^{-1}\Delta_{j})$
+            \ELSIF{there exists $i=1,2,\dots,m$ such that $f_{i}(x_{j})<\min\limits_{x\in L_{k}}f_{i}(x)$}
+                \STATE set $L_{k}:=L_{k}\cup(x_{j},\tau^{-1}\Delta_{j})$
+            \ELSIF{$x_{j}$ $\sim$ for all $(x,\Delta)\in L_{k}$}
+                \STATE set $L_{k}:=L_{k}\cup(x_{j}, \Delta_{j})$
+            \ENDIF
+        \ENDFOR
+        \RETURN $L_{k}$
+    \end{algorithmic}
+  \end{algorithm}
+\end{center}
+}
+
+\frame{\frametitle{DMulti-MADS algorithm: select incumbent} 
+\begin{center}
+  \begin{algorithm}[H]
+    \caption*{Algorithm b: selectCurrentIncumbent($L_{k}, w_{+},\tau$ )}
+    \begin{algorithmic}[1]
+      \STATE Let $L_{select}:=\{(x,\Delta)\in L_{k}: \tau^{w^{+}}\Delta_{\max_{k}} \leq \Delta \leq \Delta_{\max_{k}} \}$ with $\Delta_{\max_{k}} = \max\limits_{j=1,2,\dots,|L_{k}|} \Delta_{j}$
+      \IF{$|L_{select}=1|$}
+          \RETURN $(x,\Delta)$ with $L_{select}=\{(x, \Delta)\}$
+      \ELSIF{$|L_{select}=2|$ and $|L_{k}=2|$}
+          \STATE Let \(j_{0} \in \arg \max\limits_{j=1,2} \max\limits_{i=1,2,\dots,m} f_{i}(x_{j})\)
+          \RETURN $(x_{j_{0}}, \Delta_{j_{0}})$
+      \ELSE
+          \STATE Let $j_{0} \in \max\limits_{j=1,2,\dots,|L_{select}|} \max\limits_{i=1,2,\dots,m} \gamma_{i}(x_{j})$
+          \RETURN $(x_{j_{0}}, \Delta_{j_{0}})$
+      \ENDIF
+    \end{algorithmic}
+\end{algorithm}
+\end{center}
+\vspace{-0.5cm}
+\begin{columns}[T]
+  \begin{column}{0.5\textwidth}
+    \vspace{-0.2cm}
+  {
+    \[
+        \gamma_{i}(x^{j}) =
+    \begin{cases}
+        2\frac{f_{i}(x^{2})-f_{i}(x^{1})}{f_{i}(x^{|L^{k}|})-f_{i}(x^{1})},& \text{if } j = 1\\
+        2\frac{f_{i}(x^{|L^{k}|})-f_{i}(x^{|L^{k}|-1})}{f_{i}(x^{|L^{k}|})-f_{i}(x^{1})},& \text{if } j = 1\\
+        \frac{f_{i}(x^{j+1})-f_{i}(x^{j-1})}{f_{i}(x^{|L^{k}|})-f_{i}(x^{1})},& \text{otherwise}
+    \end{cases}
+    \]
+  }
+  \end{column}
+  \begin{column}{0.5\textwidth}
+    \vspace{-0.2cm}
+    {\begin{center}
+      \begin{figure}[H]
+      \includegraphics[width=0.65\textwidth]
+      {Figures/gamma.png}
+      \end{figure}
+    \end{center}}
+    
+
+  \end{column}
+\end{columns}
+
+
+}
+
+\frame{\frametitle{Zone of interests}
+\begin{center}
+  \begin{figure}[H]
+  \includegraphics[width=\textwidth]
+  {Figures/ZOI_MO.png}
+  \end{figure}
+\end{center} 
+}
+
+%-------------------------------------%
+\frame{\frametitle{Constrained MOP examples} 
+%-------------------------------------%
+\begin{figure}[H]
+  \includegraphics[width=\textwidth]
+  {Figures/MO-const.png}
+  \end{figure}
+
+}
+
+%-------------------------------------%
+\frame{\frametitle{Unconstrained MOP examples} 
+%-------------------------------------%
+\begin{figure}[H]
+  \includegraphics[width=\textwidth]
+  {Figures/MO-unconst.png}
+  \end{figure}
+
+}
+
+\begin{frame}{}
+  \begin{itemize}
+  \item {\transparent{0.2} What is blackbox optimization?}
+  \vspace{0.5cm}
+  \item {\transparent{0.2} Functions differentiability}
+  \vspace{0.5cm}
+  \item {\transparent{0.2} Direct search methods}
+  \vspace{0.5cm}
+  \item {\transparent{0.2} Mesh adaptive direct search method}
+  \vspace{0.5cm}
+  \item {\transparent{0.2} Multiobjective optimization using MADS}
+  \vspace{0.5cm}
+  \item {Implementations}
   \end{itemize}
 \end{frame}
 
@@ -1226,6 +1534,8 @@ Current default in {\sf NOMAD}~%\cite{AbAuDeLe09}
 
 }
 
+
+
 %-------------------------------------%
 \frame{\frametitle{MADS implementations (2/2)} 
 %-------------------------------------%
@@ -1255,22 +1565,6 @@ This implements the state-of-the-art in MADS development.
 \end{itemize}
 
 }
-
-\begin{frame}{}
-  \begin{itemize}
-  \item {\transparent{0.2} What is blackbox optimization?}
-  \vspace{0.5cm}
-  \item {\transparent{0.2} Functions differentiability}
-  \vspace{0.5cm}
-  \item {\transparent{0.2} Direct search methods}
-  \vspace{0.5cm}
-  \item {\transparent{0.2} Mesh adaptive direct search method}
-  \vspace{0.5cm}
-  \item {\transparent{0.2} Implementations}
-  \vspace{0.5cm}
-  \item {Running example}
-  \end{itemize}
-\end{frame}
 
 \section{Example}
 \begin{frame}{Transonic airfoil shape optimization}
