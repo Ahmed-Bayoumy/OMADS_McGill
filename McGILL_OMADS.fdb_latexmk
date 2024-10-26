@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1729912623.8786 "/Users/ahmedb/Data/Research/presentations/OMADS_McGill/McGILL_OMADS.tex" "McGILL_OMADS.pdf" "McGILL_OMADS" 1729912637.74248 2
-  "/Users/ahmedb/Data/Research/presentations/OMADS_McGill/McGILL_OMADS.tex" 1729912609.55283 59494 ecc6930d201520e715038e2c10e48aa9 ""
+["pdflatex"] 1729955919.82682 "/Users/ahmedb/Data/Research/presentations/OMADS_McGill/McGILL_OMADS.tex" "McGILL_OMADS.pdf" "McGILL_OMADS" 1729955933.75005 2
+  "/Users/ahmedb/Data/Research/presentations/OMADS_McGill/McGILL_OMADS.tex" 1729955905.08827 59499 e9bc6846d04158c568712b3e5a7271f3 ""
   "/Users/ahmedb/Library/texlive/2024/texmf-var/fonts/pk/ljfour/public/bbm/bbm8.600pk" 1729648751.09849 5580 b1a116078d70cbcbb8a816491f89b342 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -385,9 +385,9 @@
   "Figures/results.png" 1669769465.23599 40927 2f05c9b9b3049688109419e9fd7b41ce ""
   "Figures/results2.png" 1669769529.15838 200775 43341e919ce5fa5ce0bed35789cf225f ""
   "Figures/smooth.pdf" 1669715617.39088 57551 c53317d6df638e96bf79a7ec658f47a8 ""
-  "McGILL_OMADS.aux" 1729912637.56954 10050 25a2b220fab69c3c22bbc2542fa7ec9f "pdflatex"
-  "McGILL_OMADS.nav" 1729912637.57268 5523 3a9f9fa54a143576213b3ed15b577fe4 "pdflatex"
-  "McGILL_OMADS.tex" 1729912609.55283 59494 ecc6930d201520e715038e2c10e48aa9 ""
+  "McGILL_OMADS.aux" 1729955933.5751 10050 25a2b220fab69c3c22bbc2542fa7ec9f "pdflatex"
+  "McGILL_OMADS.nav" 1729955933.57899 5523 3a9f9fa54a143576213b3ed15b577fe4 "pdflatex"
+  "McGILL_OMADS.tex" 1729955905.08827 59499 e9bc6846d04158c568712b3e5a7271f3 ""
   (generated)
   "McGILL_OMADS.aux"
   "McGILL_OMADS.log"
