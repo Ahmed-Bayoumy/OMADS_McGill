@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1729829288.95815 "/Users/ahmedb/Data/Research/presentations/OMADS_McGill/McGILL_OMADS.tex" "McGILL_OMADS.pdf" "McGILL_OMADS" 1729829308.3333 2
-  "/Users/ahmedb/Data/Research/presentations/OMADS_McGill/McGILL_OMADS.tex" 1729828981.86535 59169 2a9196016a6655636f4fcf2f7e1d016e ""
+["pdflatex"] 1729912623.8786 "/Users/ahmedb/Data/Research/presentations/OMADS_McGill/McGILL_OMADS.tex" "McGILL_OMADS.pdf" "McGILL_OMADS" 1729912637.74248 2
+  "/Users/ahmedb/Data/Research/presentations/OMADS_McGill/McGILL_OMADS.tex" 1729912609.55283 59494 ecc6930d201520e715038e2c10e48aa9 ""
   "/Users/ahmedb/Library/texlive/2024/texmf-var/fonts/pk/ljfour/public/bbm/bbm8.600pk" 1729648751.09849 5580 b1a116078d70cbcbb8a816491f89b342 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -262,6 +262,8 @@
   "/usr/local/texlive/2024/texmf-dist/tex/latex/beamer/beamerouterthememiniframes.sty" 1684185199 5093 fe590cf2383bf96be137fae7bf69ab42 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/beamer/beamerthemeBerlin.sty" 1684185199 494 02d751e78c3cf00a22d37327debd888a ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/beamer/beamerthemedefault.sty" 1684185199 345 b9f1afd5eccd808064d49a802f119443 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/bookmark/bkm-pdftex.def" 1702241854 8818 aa5157b46368efebf023abff55611467 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/bookmark/bookmark.sty" 1702241854 18245 97e6be180cf07bb6f7008cfdaaecfce5 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption-beamer.sto" 1645391520 4350 a9295a4610cd29113396b45a37d92606 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption.sty" 1696191071 56128 c2ccf1a29d78c33bc553880402e4fb9a ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty" 1696191071 72619 ee90b6612147680fd73c3b1406a74245 ""
@@ -383,15 +385,13 @@
   "Figures/results.png" 1669769465.23599 40927 2f05c9b9b3049688109419e9fd7b41ce ""
   "Figures/results2.png" 1669769529.15838 200775 43341e919ce5fa5ce0bed35789cf225f ""
   "Figures/smooth.pdf" 1669715617.39088 57551 c53317d6df638e96bf79a7ec658f47a8 ""
-  "McGILL_OMADS.aux" 1729829308.00041 9435 ba9eeae90d9f407974c65b27414d508c "pdflatex"
-  "McGILL_OMADS.nav" 1729829308.00262 5523 3a9f9fa54a143576213b3ed15b577fe4 "pdflatex"
-  "McGILL_OMADS.out" 1729829308.00223 619 d5e4df270a96eaa7ba996185d95dd79d "pdflatex"
-  "McGILL_OMADS.tex" 1729828981.86535 59169 2a9196016a6655636f4fcf2f7e1d016e ""
+  "McGILL_OMADS.aux" 1729912637.56954 10050 25a2b220fab69c3c22bbc2542fa7ec9f "pdflatex"
+  "McGILL_OMADS.nav" 1729912637.57268 5523 3a9f9fa54a143576213b3ed15b577fe4 "pdflatex"
+  "McGILL_OMADS.tex" 1729912609.55283 59494 ecc6930d201520e715038e2c10e48aa9 ""
   (generated)
   "McGILL_OMADS.aux"
   "McGILL_OMADS.log"
   "McGILL_OMADS.nav"
-  "McGILL_OMADS.out"
   "McGILL_OMADS.pdf"
   "McGILL_OMADS.snm"
   "McGILL_OMADS.toc"

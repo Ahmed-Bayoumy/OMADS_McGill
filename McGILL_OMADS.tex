@@ -13,6 +13,8 @@
 \definecolor{HF}{rgb}{1.0, 0.33, 0.64}
 \definecolor{LF}{rgb}{0.0, 0.0, 1.0}
 \definecolor{mygreen}{rgb}{0.0, 0.8, 0.6}
+\definecolor{mygray}{rgb}{0.83,0.83,0.83}
+
 \newcommand{\R}{\mathbb{R}}
 \newcommand{\rd}{\color{myblue}}
 
@@ -42,6 +44,16 @@
 \usetikzlibrary{calc, positioning, quotes}
 
 \usepackage{hyperref}
+\usepackage{bookmark}
+\newcommand{\fadecolor}[3]{%
+  \tikz[baseline=(text.base)]{
+    \node[outer sep=0pt, fill=none] (text) {\textcolor{#1}{#2}};%
+    \foreach \i in {1, ..., 10} {%
+      \pgfmathsetmacro{\mixcolor}{#1!((11-\i)*100/10)+#3!((\i)*100/10)}%
+      \node[outer sep=0pt, fill=none, opacity=1-\i/10] at (text.north) {\textcolor{\mixcolor}{#2}};%
+    }
+  }%
+}
 
 
 
@@ -103,15 +115,15 @@
 {\begin{itemize}
   \item {What is blackbox optimization?}
   \vspace{0.5cm}
-  \item {\transparent{0.2} Functions differentiability}
+  \item {\color{mygray} Functions differentiability}
   \vspace{0.5cm}
-  \item {\transparent{0.2} Direct search methods}
+  \item {\color{mygray} Direct search methods}
   \vspace{0.5cm}
-  \item {\transparent{0.2} Mesh adaptive direct search method}
+  \item {\color{mygray} Mesh adaptive direct search method}
   \vspace{0.5cm}
-  \item {\transparent{0.2} Multiobjective optimization using MADS}
+  \item {\color{mygray} Multiobjective optimization using MADS}
   \vspace{0.5cm}
-  \item {\transparent{0.2} Implementations}
+  \item {\color{mygray} Implementations}
   \end{itemize}}
 \end{frame}
 
@@ -276,17 +288,17 @@ The decision variables $x$ can be any combination of
 
 \begin{frame}{}
   \begin{itemize}
-  \item {\transparent{0.2} What is blackbox optimization?}
+  \item {\color{mygray} What is blackbox optimization?}
   \vspace{0.5cm}
   \item {Functions differentiability}
   \vspace{0.5cm}
-  \item {\transparent{0.2} Direct search methods}
+  \item {\color{mygray} Direct search methods}
   \vspace{0.5cm}
-  \item {\transparent{0.2} Mesh adaptive direct search method}
+  \item {\color{mygray} Mesh adaptive direct search method}
   \vspace{0.5cm}
-  \item {\transparent{0.2} Multiobjective optimization using MADS}
+  \item {\color{mygray} Multiobjective optimization using MADS}
   \vspace{0.5cm}
-  \item {\transparent{0.2} Implementations}
+  \item {\color{mygray} Implementations}
   \end{itemize}
 \end{frame}
 
@@ -489,17 +501,17 @@ The choice is obvious.
 
 \begin{frame}{}
   \begin{itemize}
-  \item {\transparent{0.2} What is blackbox optimization?}
+  \item {\color{mygray} What is blackbox optimization?}
   \vspace{0.5cm}
-  \item {\transparent{0.2} Functions differentiability}
+  \item {\color{mygray} Functions differentiability}
   \vspace{0.5cm}
   \item {Direct search methods}
   \vspace{0.5cm}
-  \item {\transparent{0.2} Mesh adaptive direct search method}
+  \item {\color{mygray} Mesh adaptive direct search method}
   \vspace{0.5cm}
-  \item {\transparent{0.2} Multiobjective optimization using MADS}
+  \item {\color{mygray} Multiobjective optimization using MADS}
   \vspace{0.5cm}
-  \item {\transparent{0.2} Implementations}
+  \item {\color{mygray} Implementations}
   \end{itemize}
 \end{frame}
 
@@ -1085,17 +1097,17 @@ at distance $\Delta_k$ from $x_k$
 
 \begin{frame}{}
   \begin{itemize}
-  \item {\transparent{0.2} What is blackbox optimization?}
+  \item {\color{mygray} What is blackbox optimization?}
   \vspace{0.5cm}
-  \item {\transparent{0.2} Functions differentiability}
+  \item {\color{mygray} Functions differentiability}
   \vspace{0.5cm}
-  \item {\transparent{0.2} Direct search methods}
+  \item {\color{mygray} Direct search methods}
   \vspace{0.5cm}
   \item {Mesh adaptive direct search method}
   \vspace{0.5cm}
-  \item {\transparent{0.2} Multiobjective optimization using MADS}
+  \item {\color{mygray} Multiobjective optimization using MADS}
   \vspace{0.5cm}
-  \item {\transparent{0.2} Implementations}
+  \item {\color{mygray} Implementations}
   \end{itemize}
 \end{frame}
 
@@ -1178,22 +1190,6 @@ at distance $\Delta_k$ from $x_k$
   \end{block}
 \end{frame}
 
-\begin{frame}{}
-  \begin{itemize}
-  \item {\transparent{0.2} What is blackbox optimization?}
-  \vspace{0.5cm}
-  \item {\transparent{0.2} Functions differentiability}
-  \vspace{0.5cm}
-  \item {\transparent{0.2} Direct search methods}
-  \vspace{0.5cm}
-  \item {\transparent{0.2} Mesh adaptive direct search method}
-  \vspace{0.5cm}
-  \item {Multiobjective optimization using MADS}
-  \vspace{0.5cm}
-  \item {\transparent{0.2} Implementations}
-  \end{itemize}
-\end{frame}
-
 \frame{\frametitle{Example: Geometric Programming Problem }
 \href{https://colab.research.google.com/drive/1su74KlYBDeglVh-s0uA2kwaGO3bp9Buu#scrollTo=rafagcVThXZj}{%
 \includegraphics[width=2cm]{Figures/colab-badge.png}
@@ -1216,6 +1212,24 @@ at distance $\Delta_k$ from $x_k$
 \end{align*}
 
 }
+
+\begin{frame}{}
+  \begin{itemize}
+  \item {\color{mygray} What is blackbox optimization?}
+  \vspace{0.5cm}
+  \item {\color{mygray} Functions differentiability}
+  \vspace{0.5cm}
+  \item {\color{mygray} Direct search methods}
+  \vspace{0.5cm}
+  \item {\color{mygray} Mesh adaptive direct search method}
+  \vspace{0.5cm}
+  \item {Multiobjective optimization using MADS}
+  \vspace{0.5cm}
+  \item {\color{mygray} Implementations}
+  \end{itemize}
+\end{frame}
+
+
 
 % \section{Heuristics}
 % %------------------------------------------------------------------%
@@ -1533,15 +1547,15 @@ at distance $\Delta_k$ from $x_k$
 
 \begin{frame}{}
   \begin{itemize}
-  \item {\transparent{0.2} What is blackbox optimization?}
+  \item {\color{mygray} What is blackbox optimization?}
   \vspace{0.5cm}
-  \item {\transparent{0.2} Functions differentiability}
+  \item {\color{mygray} Functions differentiability}
   \vspace{0.5cm}
-  \item {\transparent{0.2} Direct search methods}
+  \item {\color{mygray} Direct search methods}
   \vspace{0.5cm}
-  \item {\transparent{0.2} Mesh adaptive direct search method}
+  \item {\color{mygray} Mesh adaptive direct search method}
   \vspace{0.5cm}
-  \item {\transparent{0.2} Multiobjective optimization using MADS}
+  \item {\color{mygray} Multiobjective optimization using MADS}
   \vspace{0.5cm}
   \item {Implementations}
   \end{itemize}
